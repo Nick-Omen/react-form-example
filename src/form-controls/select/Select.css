@@ -1,0 +1,14 @@
+.select {
+  height: 40px;
+  width: auto;
+  border: none;
+  background-image: url('./select-arrow.svg'), linear-gradient(to right, #fcfcfc 0%, #fcfcfc calc(100% - 40px), #f0f0f0 calc(100% - 40px), #f0f0f0 100%);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 13px) 50%, 100%;
+  border-bottom: 1px solid lightgray;
+  padding: 0 48px 0 8px;
+  border-radius: 0;
+  appearance: none;
+  cursor: pointer;
+  font-size: 1rem;
+}

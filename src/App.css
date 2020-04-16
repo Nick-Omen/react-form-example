@@ -1,0 +1,40 @@
+.app {
+  min-height: 100vh;
+}
+
+.app__header {
+  background: #fcfcfc;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.app__logo {
+  width: auto;
+  height: 34px;
+  margin-right: 16px;
+}
+
+.app__title {
+  flex: 0 1 auto;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.app__header-link {
+  flex: 0 1 auto;
+  margin-left: auto;
+}
+
+.app__main {
+  padding: 32px 16px;
+  display: flex;
+}
+
+.app__form {
+  margin-left: auto;
+  margin-right: auto;
+  flex: 1 1 auto;
+}
